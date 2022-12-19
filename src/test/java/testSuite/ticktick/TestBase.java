@@ -8,20 +8,20 @@ import session.Session;
 import util.GetProperties;
 
 public class TestBase {
-    protected EditListBox editListBox = new EditListBox();
-    protected ListSection listSection = new ListSection();
-    protected LoginPage loginPage = new LoginPage();
-    protected MainPage mainPage = new MainPage();
-    protected MenuListSection menuListSection = new MenuListSection();
-    protected MenuSection menuSection = new MenuSection();
-    protected ConfirmationAlert confirmationAlert = new ConfirmationAlert();
+    EditListBox editListBox = new EditListBox();
+    ListSection listSection = new ListSection();
+    LoginPage loginPage = new LoginPage();
+    MainPage mainPage = new MainPage();
+    MenuListSection menuListSection = new MenuListSection();
+    MenuSection menuSection = new MenuSection();
+    ConfirmationAlert confirmationAlert = new ConfirmationAlert();
 
     //right click
-    protected Actions action = new Actions(Session.getInstance().getBrowser());
+    Actions action = new Actions(Session.getInstance().getBrowser());
 
     // todo property
-    protected String userName = GetProperties.getInstance().getUser();
-    protected String password = GetProperties.getInstance().getPwd();
+    String userName = GetProperties.getInstance().getUser();
+    String password = GetProperties.getInstance().getPwd();
 
     @BeforeEach
     public void openBrowser(){

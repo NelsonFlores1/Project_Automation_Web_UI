@@ -5,9 +5,6 @@ import control.Label;
 import org.openqa.selenium.By;
 
 public class ListSection {
-    /*Lists section
-    add new list button
-    */
 
     public Button addNewListButton = new Button(By.className("icon-list-add"));
 

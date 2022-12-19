@@ -5,10 +5,6 @@ import control.Label;
 import org.openqa.selenium.By;
 
 public class MenuSection {
-    /*Menu section → class
-    logged user button → attribute
-    task section button
-    calendar section button*/
 
     public Button userLoggedButton = new Button(By.xpath("//img[@class='w-[32px] h-[32px] rounded-[6px]']"));
     //public Button taskSectionButton = new Button(By.xpath(""));

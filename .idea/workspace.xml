@@ -4,48 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f426f3d3-d10a-4ae8-8a85-bc3c0edf6faf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cucumber/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cucumber/report.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicSelenium/BasicSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browser/Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browser/FactoryBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browser/Firefox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browser/IBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/CRUDSeleniumTestCucumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/RunCucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/control/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/control/Control.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/control/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/control/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/ConfirmationAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/EditListBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/ListSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuListSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/session/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/CRUDListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/GetProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ticktick.properties" afterDir="false" />
+    <list default="true" id="f426f3d3-d10a-4ae8-8a85-bc3c0edf6faf" name="Changes" comment="Cucumber Report">
+      <change afterPath="$PROJECT_DIR$/src/test/java/browser/Headless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicSelenium/BasicSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicSelenium/BasicSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/browser/FactoryBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browser/FactoryBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/CRUDSeleniumTestCucumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/EditListBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/EditListBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/ListSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/ListSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuListSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuListSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/session/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/session/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ticktick.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ticktick.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +110,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CRUDListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testSuite.ticktick.CRUDListTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="CRUDListTest.verifyCRUDList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -162,6 +160,7 @@
       <list>
         <item itemvalue="Gradle.CRUDListTest.verifyCRUDList" />
         <item itemvalue="Gradle.BasicSeleniumTest" />
+        <item itemvalue="Gradle.CRUDListTest" />
         <item itemvalue="Gradle.BasicSeleniumTest.verifyCRUDProject" />
       </list>
     </recent_temporary>
@@ -175,9 +174,34 @@
       <option name="presentableId" value="Default" />
       <updated>1671033761205</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project Automation Web UI">
+      <created>1671405196967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671405196967</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cucumber Report">
+      <created>1671405302318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671405302318</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cucumber Report">
+      <created>1671407297455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671407297455</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Project Automation Web UI" />
+    <MESSAGE value="Cucumber Report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber Report" />
   </component>
 </project>

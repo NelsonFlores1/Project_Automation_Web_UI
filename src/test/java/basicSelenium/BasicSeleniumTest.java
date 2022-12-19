@@ -5,14 +5,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import session.Session;
 
 import java.time.Duration;
 
@@ -24,17 +23,24 @@ public class BasicSeleniumTest {
     @BeforeEach
     public void setUp()
     {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
-        driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver","src/test/resources/driver/chromedriver");
+
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless", "--window-size=1920,1200","--ignore-certificate-errors");
+        driver = new ChromeDriver(options);
+
+        //driver = new ChromeDriver();
+
         action = new Actions(driver);
 
+
         // implicit wait
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         // page load wait
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
         driver.manage().window().maximize();
-        driver.get("https://ticktick.com/");
+        driver.get("http://ticktick.com/");
     }
 
     @AfterEach

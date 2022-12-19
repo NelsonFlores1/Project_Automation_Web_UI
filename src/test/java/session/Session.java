@@ -10,12 +10,14 @@ public class Session {
     /**
      * It guarantees that the session is unique
      */
-    public static Session instance = null;
+    private static Session instance = null;
     private WebDriver browser;
 
     public WebElement link;
+    //browser = FactoryBrowser.make("headless").create();
 
     private Session() {
+        //browser = FactoryBrowser.make("headless").create();
         browser = FactoryBrowser.make(GetProperties.getInstance().getBrowser()).create();
     }
 
