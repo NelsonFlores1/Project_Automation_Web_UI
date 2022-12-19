@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f426f3d3-d10a-4ae8-8a85-bc3c0edf6faf" name="Changes" comment="Cucumber Report">
-      <change afterPath="$PROJECT_DIR$/src/test/java/browser/Headless.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cucumber/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cucumber/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicSelenium/BasicSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicSelenium/BasicSeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/browser/FactoryBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browser/FactoryBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/CRUDSeleniumTestCucumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/EditListBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/EditListBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/ListSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/ListSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuListSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuListSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ticktick/MenuSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/session/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/session/Session.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ticktick.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ticktick.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +31,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5c4fdb14-7cc8-4e8e-9fb0-7fd82b6c929a" />
+        <option name="url" value="https://github.com/NelsonFlores1/Project_Automation_Web_UI.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -54,15 +55,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nelson/Documents/Bootcamp/Selenium/Example_4(design paterns applied)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/nelson/Documents/Bootcamp/Project/Automation-Web"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.CRUDListTest.verifyCRUDList">
     <configuration name="BasicSeleniumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -195,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671407297455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cucumber Report">
+      <created>1671414490280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671414490280</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cucumber Report">
+      <created>1671414560004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671414560004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
