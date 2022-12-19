@@ -23,7 +23,7 @@ public class BasicSeleniumTestCucumber {
     WebDriver driver;
     Actions action;
 
-    @When("I am on the ticktick page")
+    @Given("I am on the ticktick page")
     @BeforeEach
     public void setUp()
     {
