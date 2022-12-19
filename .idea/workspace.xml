@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f426f3d3-d10a-4ae8-8a85-bc3c0edf6faf" name="Changes" comment="Cucumber Report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicSelenium/BasicSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicSelenium/BasicSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/nelson/Documents/Bootcamp/Project/Automation-Web&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CRUDListTest.verifyCRUDList">
+  <component name="RunManager" selected="Gradle.BasicSeleniumTest">
     <configuration name="BasicSeleniumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -160,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CRUDListTest.verifyCRUDList" />
         <item itemvalue="Gradle.BasicSeleniumTest" />
+        <item itemvalue="Gradle.CRUDListTest.verifyCRUDList" />
         <item itemvalue="Gradle.CRUDListTest" />
         <item itemvalue="Gradle.BasicSeleniumTest.verifyCRUDProject" />
       </list>
@@ -232,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671476236311</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cucumber Report">
+      <created>1671480302174</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480302174</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Cucumber Report">
+      <created>1671480617037</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480617037</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

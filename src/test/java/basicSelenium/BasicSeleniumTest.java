@@ -25,11 +25,11 @@ public class BasicSeleniumTest {
     {
         System.setProperty("webdriver.chrome.driver","src/test/resources/driver/chromedriver");
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless", "--window-size=1920,1200","--ignore-certificate-errors");
-        driver = new ChromeDriver(options);
+        //ChromeOptions options = new ChromeOptions();
+        //options.addArguments("--headless", "--window-size=1920,1200","--ignore-certificate-errors");
+        //driver = new ChromeDriver(options);
 
-        //driver = new ChromeDriver();
+        driver = new ChromeDriver();
 
         action = new Actions(driver);
 
