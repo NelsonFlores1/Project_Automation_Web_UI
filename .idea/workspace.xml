@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/cucumber/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cucumber/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/BasicSeleniumTestCucumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671467269812</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cucumber Report">
+      <created>1671476236311</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671476236311</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
