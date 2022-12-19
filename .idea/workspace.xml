@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f426f3d3-d10a-4ae8-8a85-bc3c0edf6faf" name="Changes" comment="Cucumber Report">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cucumber/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cucumber/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com.cucumber/SeleniumTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/RunCucumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +32,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -55,15 +56,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/nelson/Documents/Bootcamp/Project/Automation-Web"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nelson/Documents/Bootcamp/Project/Automation-Web&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.CRUDListTest.verifyCRUDList">
     <configuration name="BasicSeleniumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671414560004</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Cucumber Report">
+      <created>1671415368887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671415368887</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -15,7 +15,7 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "html")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.cucumber")
 
-public class RunCucumberTest {
+public class  RunCucumberTest {
     public static void main(String[]arg){
 
     }
